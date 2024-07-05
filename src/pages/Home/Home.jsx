@@ -9,6 +9,7 @@ import { HomeAbout } from "./HomeAbout";
 import { HomeProcess } from "./HomeProcess";
 import { HomeService } from "./HomeService";
 import { SecondBanner } from "./SecondBanner";
+import { OurWork } from "./OurWork";
 
 export const Home = () => {
   return (
@@ -28,8 +29,9 @@ export const Home = () => {
       <HomeProcess />
       <HomeService />
       <SecondBanner />
+      <OurWork/>
       <DefaultBottomLayout />
-   
+
     </div>
   );
 };
